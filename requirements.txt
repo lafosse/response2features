@@ -1,0 +1,8 @@
+sk-video
+skimage
+sklearn
+matplotlib
+numpy
+tifffile
+scipy
+torchvision
