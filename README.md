@@ -23,9 +23,17 @@ requirements.txt or install these packages into your working environment using
 
 `pip install -r requirements.txt`
 
+It is HIGHLY RECOMMENDED to create a new environment before installing the required
+packages and running the notebooks. 
+
 To run the notebooks, open jupyter and follow the steps for defining save/load paths
 and defining necessary parameters at various steps. 
 
+Input data for the preprocessing notebook requires pre-generated data sets consisting of
+
+1) response traces for every cell in a numpy array (.npz file) of shape (nCells,nMovieReps,nFramesPerRep)
+2) .mp4 file of movie
 
 author: Paul LaFosse
+
 contact: lafossek21@gmail.com

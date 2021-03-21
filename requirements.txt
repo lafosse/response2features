@@ -1,3 +1,5 @@
+jupyter
+jupyterlab
 sk-video
 skimage
 sklearn
